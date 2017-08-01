@@ -1,0 +1,9 @@
+{
+	"name": "bundlesight",
+	"description": "Tool to monitor javascript bundle sizes",
+	"author": "Andreas Hoffmann <furizaa@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"lerna": "^2.0.0"
+	}
+}

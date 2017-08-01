@@ -1,0 +1,21 @@
+{
+  "name": "bundlesight-webpack-plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bundlesight-client": "^0.0.1"
+  },
+  "scripts": {
+    "test": "yarn jest",
+    "smoke": "webpack --config __tests__/testProject/webpack.config.js"
+  },
+  "jest": {
+    "testRegex": "/__tests__/.*\\.test\\.js$"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3",
+    "jest": "^20.0.4",
+    "webpack": "^3.4.1"
+  }
+}

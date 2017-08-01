@@ -1,0 +1,22 @@
+{
+  "name": "bundlesight-client",
+  "version": "0.0.1",
+  "description": "bundlesight client toolset",
+  "main": "index.js",
+  "author": "Andreas Hoffmann",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.7.1"
+  },
+  "scripts": {
+    "build": "babel ./modules -d . --ignore __tests__",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4",
+    "prettier": "^1.5.3"
+  }
+}

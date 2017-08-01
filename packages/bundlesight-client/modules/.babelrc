@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "loose": true,
+        "targets": {
+          "node": 4
+        },
+        "useBuiltIns": true,
+        "include": ["es6.array.find"]
+      }
+    ]
+  ],
+  "plugins": [["transform-inline-imports-commonjs"]]
+}
