@@ -1,8 +1,12 @@
 {
   "name": "bundlesight-client",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "bundlesight client toolset",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "collectBuild.js"
+  ],
   "author": "Andreas Hoffmann",
   "license": "MIT",
   "dependencies": {
