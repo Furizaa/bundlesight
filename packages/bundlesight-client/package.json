@@ -1,6 +1,6 @@
 {
   "name": "bundlesight-client",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "description": "bundlesight client toolset",
   "main": "index.js",
   "author": "Andreas Hoffmann",
@@ -13,8 +13,8 @@
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
     "babel-cli": "^6.24.1",
+    "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
     "babel-preset-env": "^1.6.0",
     "jest": "^20.0.4",
     "prettier": "^1.5.3"
